@@ -6,10 +6,10 @@ jobs:
   styles-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@194c60efc37fcfa5fa518543a35a9d2da5fe42a2 # v1
+        uses: oven-sh/setup-bun@43b2dc9ae87f6949ab33cd393f0ded6654d2cc9b # v1
         with:
           bun-version: "1.0.1"
 
